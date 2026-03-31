@@ -1,2 +1,4 @@
 base\BasePage.class
 driver\DriverFactory.class
+utils\ConfigReader.class
+utils\EnvUtils.class
