@@ -10,6 +10,8 @@
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="testGoogle1"/>
+          <include name="testGoogle2"/>
+          <include name="testGoogle3"/>
         </methods>
       </class> <!-- test.SampleTest -->
     </classes>
