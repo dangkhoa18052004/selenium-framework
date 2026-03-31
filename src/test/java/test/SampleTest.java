@@ -33,8 +33,8 @@ public class SampleTest extends BaseTest {
             getDriver().get("https://www.google.com");
         });
         
-        Allure.step("Cố ý làm fail", () -> {
-            Assert.assertEquals("A", "B"); // Cố tình fail để chụp Allure Screenshot
+        Allure.step("Đã sửa pass thành công", () -> {
+            Assert.assertEquals("A", "A"); // Đã gỡ bỏ tính năng Fail cố ý để máy hiển thị xanh toàn bộ
         });
     }
 
