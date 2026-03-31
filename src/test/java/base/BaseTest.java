@@ -33,6 +33,7 @@ public class BaseTest {
 
         if(result.getStatus() == ITestResult.FAILURE){
             takeScreenshot(result.getName());
+            attachScreenshot(getDriver());
         }
 
         if(getDriver()!=null){
@@ -57,5 +58,10 @@ public class BaseTest {
         }catch(Exception e){
             e.printStackTrace();
         }
+    }
+
+    @io.qameta.allure.Attachment(value = "Ảnh chụp khi thất bại", type = "image/png")
+    public byte[] attachScreenshot(WebDriver driver) {
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
     }
 }
