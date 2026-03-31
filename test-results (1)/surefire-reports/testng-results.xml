@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-31T07:05:11 UTC" name="Suite" finished-at="2026-03-31T07:05:25 UTC" duration-ms="13418">
+    <groups>
+    </groups>
+    <test started-at="2026-03-31T07:05:11 UTC" name="Test" finished-at="2026-03-31T07:05:25 UTC" duration-ms="13418">
+      <class name="test.SampleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:11 UTC" name="setUp" finished-at="2026-03-31T07:05:24 UTC" duration-ms="12282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:11 UTC" name="setUp" finished-at="2026-03-31T07:05:24 UTC" duration-ms="12283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:11 UTC" name="setUp" finished-at="2026-03-31T07:05:24 UTC" duration-ms="12282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogle3()[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:24 UTC" name="testGoogle3" finished-at="2026-03-31T07:05:25 UTC" duration-ms="952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle3 -->
+        <test-method signature="testGoogle1()[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:24 UTC" name="testGoogle1" finished-at="2026-03-31T07:05:25 UTC" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle1 -->
+        <test-method signature="testGoogle2()[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:24 UTC" name="testGoogle2" finished-at="2026-03-31T07:05:24 UTC" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle2 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:24 UTC" name="tearDown" finished-at="2026-03-31T07:05:25 UTC" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogle2 status=SUCCESS method=SampleTest.testGoogle2()[pri:0, instance:test.SampleTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:25 UTC" name="tearDown" finished-at="2026-03-31T07:05:25 UTC" duration-ms="97" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogle3 status=SUCCESS method=SampleTest.testGoogle3()[pri:0, instance:test.SampleTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:05:25 UTC" name="tearDown" finished-at="2026-03-31T07:05:25 UTC" duration-ms="73" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogle1 status=SUCCESS method=SampleTest.testGoogle1()[pri:0, instance:test.SampleTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

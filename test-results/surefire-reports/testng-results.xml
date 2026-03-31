@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-31T07:01:18 UTC" name="Suite" finished-at="2026-03-31T07:01:30 UTC" duration-ms="11564">
+    <groups>
+    </groups>
+    <test started-at="2026-03-31T07:01:18 UTC" name="Test" finished-at="2026-03-31T07:01:30 UTC" duration-ms="11564">
+      <class name="test.SampleTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:18 UTC" name="setUp" finished-at="2026-03-31T07:01:29 UTC" duration-ms="10597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:18 UTC" name="setUp" finished-at="2026-03-31T07:01:29 UTC" duration-ms="10596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:18 UTC" name="setUp" finished-at="2026-03-31T07:01:29 UTC" duration-ms="10597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testGoogle2()[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:29 UTC" name="testGoogle2" finished-at="2026-03-31T07:01:29 UTC" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle2 -->
+        <test-method signature="testGoogle3()[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:29 UTC" name="testGoogle3" finished-at="2026-03-31T07:01:29 UTC" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle3 -->
+        <test-method signature="testGoogle1()[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:29 UTC" name="testGoogle1" finished-at="2026-03-31T07:01:29 UTC" duration-ms="705" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [B] but found [A]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [B] but found [A]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test.SampleTest.testGoogle1(SampleTest.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle1 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:29 UTC" name="tearDown" finished-at="2026-03-31T07:01:29 UTC" duration-ms="148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogle2 status=SUCCESS method=SampleTest.testGoogle2()[pri:0, instance:test.SampleTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:29 UTC" name="tearDown" finished-at="2026-03-31T07:01:29 UTC" duration-ms="116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogle3 status=SUCCESS method=SampleTest.testGoogle3()[pri:0, instance:test.SampleTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@2f177a4b]" started-at="2026-03-31T07:01:29 UTC" name="tearDown" finished-at="2026-03-31T07:01:30 UTC" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGoogle1 status=FAILURE method=SampleTest.testGoogle1()[pri:0, instance:test.SampleTest@2f177a4b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
