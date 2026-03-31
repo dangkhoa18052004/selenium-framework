@@ -4,6 +4,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
+import driver.DriverFactory;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -23,11 +24,8 @@ public class BaseTest {
     public void setUp(@Optional("chrome") String browser,
                       @Optional("dev") String env){
 
-        if(browser.equalsIgnoreCase("chrome")){
-            driver.set(new ChromeDriver());
-        }
-
-        getDriver().manage().window().maximize();
+        String targetBrowser = System.getProperty("browser", browser);
+        driver.set(DriverFactory.createDriver(targetBrowser));
     }
 
     @AfterMethod

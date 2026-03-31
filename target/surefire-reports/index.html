@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Loc\Desktop\lab9\bai1\selenium-framework\testng.xml</span>
+                    <span>D:\lab9\bai1\selenium-framework\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -150,12 +150,12 @@
                   <span class="method-name">testGoogle1</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [B] but found [A]
 	at test.SampleTest.testGoogle1(SampleTest.java:15)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
-	at java.base/java.lang.Thread.run(Thread.java:1474)
-... Removed 17 stack frames
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 19 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -186,7 +186,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Loc\Desktop\lab9\bai1\selenium-framework\testng.xml</span>
+            <span class="header-content">D:\lab9\bai1\selenium-framework\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -239,22 +239,22 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGoogle1')
+data.setCell(0, 1, 'testGoogle3')
 data.setCell(0, 2, 'test.SampleTest')
-data.setCell(0, 3, 1094);
+data.setCell(0, 3, 1447);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testGoogle3')
+data.setCell(1, 1, 'testGoogle2')
 data.setCell(1, 2, 'test.SampleTest')
-data.setCell(1, 3, 1090);
+data.setCell(1, 3, 1319);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testGoogle2')
+data.setCell(2, 1, 'testGoogle1')
 data.setCell(2, 2, 'test.SampleTest')
-data.setCell(2, 3, 278);
+data.setCell(2, 3, 860);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -291,33 +291,33 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(chrome, dev)</span>
-                <span class="method-start">1 ms</span>
+                <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testGoogle2</span>
-                <span class="method-start">2463 ms</span>
+                <span class="method-name">testGoogle3</span>
+                <span class="method-start">4083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testGoogle1</span>
-                <span class="method-start">2653 ms</span>
+                <span class="method-start">4083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">testGoogle3</span>
-                <span class="method-start">2662 ms</span>
+                <span class="method-name">testGoogle2</span>
+                <span class="method-start">4089 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testGoogle2 status=SUCCESS method=SampleTest.testGoogle2()[pri:0, instance:test.Sam...)</span>
-                <span class="method-start">2791 ms</span>
+                <span class="method-name">tearDown([TestResult name=testGoogle1 status=FAILURE method=SampleTest.testGoogle1()[pri:0, instance:test.Sam...)</span>
+                <span class="method-start">4953 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=testGoogle1 status=FAILURE method=SampleTest.testGoogle1()[pri:0, instance:test.Sam...)</span>
-                <span class="method-start">3752 ms</span>
+                <span class="method-name">tearDown([TestResult name=testGoogle2 status=SUCCESS method=SampleTest.testGoogle2()[pri:0, instance:test.Sam...)</span>
+                <span class="method-start">5409 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown([TestResult name=testGoogle3 status=SUCCESS method=SampleTest.testGoogle3()[pri:0, instance:test.Sam...)</span>
-                <span class="method-start">3752 ms</span>
+                <span class="method-start">5531 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
