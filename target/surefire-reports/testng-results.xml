@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-31T13:54:19 ICT" name="Suite" finished-at="2026-03-31T13:54:25 ICT" duration-ms="5773">
+  <suite started-at="2026-03-31T14:02:33 ICT" name="Suite" finished-at="2026-03-31T14:02:37 ICT" duration-ms="3686">
     <groups>
     </groups>
-    <test started-at="2026-03-31T13:54:19 ICT" name="Test" finished-at="2026-03-31T13:54:25 ICT" duration-ms="5773">
+    <test started-at="2026-03-31T14:02:33 ICT" name="Test" finished-at="2026-03-31T14:02:37 ICT" duration-ms="3686">
       <class name="test.SampleTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:19 ICT" name="setUp" finished-at="2026-03-31T13:54:23 ICT" duration-ms="4076" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:33 ICT" name="setUp" finished-at="2026-03-31T14:02:35 ICT" duration-ms="1563" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:19 ICT" name="setUp" finished-at="2026-03-31T13:54:23 ICT" duration-ms="4076" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:33 ICT" name="setUp" finished-at="2026-03-31T14:02:35 ICT" duration-ms="1563" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:19 ICT" name="setUp" finished-at="2026-03-31T13:54:23 ICT" duration-ms="4076" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:33 ICT" name="setUp" finished-at="2026-03-31T14:02:35 ICT" duration-ms="1563" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGoogle3()[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:23 ICT" name="testGoogle3" finished-at="2026-03-31T13:54:24 ICT" duration-ms="1447" status="PASS">
+        <test-method signature="testGoogle3()[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:35 ICT" name="testGoogle3" finished-at="2026-03-31T14:02:36 ICT" duration-ms="1104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogle3 -->
-        <test-method signature="testGoogle1()[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:23 ICT" name="testGoogle1" finished-at="2026-03-31T13:54:24 ICT" duration-ms="860" status="FAIL">
+        <test-method signature="testGoogle2()[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:35 ICT" name="testGoogle2" finished-at="2026-03-31T14:02:36 ICT" duration-ms="1355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogle2 -->
+        <test-method signature="testGoogle1()[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:35 ICT" name="testGoogle1" finished-at="2026-03-31T14:02:37 ICT" duration-ms="1768" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [B] but found [A]]]>
@@ -97,22 +101,18 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGoogle1 -->
-        <test-method signature="testGoogle2()[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:23 ICT" name="testGoogle2" finished-at="2026-03-31T13:54:24 ICT" duration-ms="1319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGoogle2 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:24 ICT" name="tearDown" finished-at="2026-03-31T13:54:24 ICT" duration-ms="730" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:36 ICT" name="tearDown" finished-at="2026-03-31T14:02:36 ICT" duration-ms="248" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGoogle1 status=FAILURE method=SampleTest.testGoogle1()[pri:0, instance:test.SampleTest@291ae] output={null}]]]>
+                <![CDATA[[TestResult name=testGoogle3 status=SUCCESS method=SampleTest.testGoogle3()[pri:0, instance:test.SampleTest@291ae] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:24 ICT" name="tearDown" finished-at="2026-03-31T13:54:25 ICT" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:36 ICT" name="tearDown" finished-at="2026-03-31T14:02:36 ICT" duration-ms="238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,11 +123,11 @@ at java.base/java.lang.Thread.run(Thread.java:842)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T13:54:24 ICT" name="tearDown" finished-at="2026-03-31T13:54:25 ICT" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:test.SampleTest@291ae]" started-at="2026-03-31T14:02:37 ICT" name="tearDown" finished-at="2026-03-31T14:02:37 ICT" duration-ms="314" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGoogle3 status=SUCCESS method=SampleTest.testGoogle3()[pri:0, instance:test.SampleTest@291ae] output={null}]]]>
+                <![CDATA[[TestResult name=testGoogle1 status=FAILURE method=SampleTest.testGoogle1()[pri:0, instance:test.SampleTest@291ae] output={null}]]]>
               </value>
             </param>
           </params>
