@@ -21,7 +21,7 @@ Hãy:
 ---
 
 ## Mục tiêu Bài 1
-Hoàn thành pipeline CI/CD cơ bản:
+Hoàn thành pipeline CI/CD cơ bản:aa
 - Mỗi lần push lên GitHub thì test tự chạy
 - Có file workflow GitHub Actions
 - Có hỗ trợ headless cho môi trường CI
